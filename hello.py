@@ -25,5 +25,6 @@ st.markdown(
 with st.sidebar:
     st.markdown("""App developed by [Yasser Mushtaq](https://www.linkedin.com/in/yasser-mushtaq-b1bbaa65/)  """)
     st.markdown("""View code at my [GitHub]('https://github.com/Ya5s3r')""")
-    
+    link = '[GitHub](https://github.com/Ya5s3r)'
+    st.markdown(link, unsafe_allow_html=True)
     #https://icons8.com/icon/12598/github

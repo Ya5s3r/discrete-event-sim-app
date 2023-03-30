@@ -21,3 +21,7 @@ st.markdown(
     - Some basic introductory notes are also included in *Introduction* 👈 
 """
 )
+
+with st.sidebar:
+    st.markdown("""App developed by [Yasser Mushtaq](https://www.linkedin.com/in/yasser-mushtaq-b1bbaa65/)  """)
+    st.markdown("""[![Title](‘https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg’)](‘https://www.linkedin.com/in/yasser-mushtaq-b1bbaa65/’)""")

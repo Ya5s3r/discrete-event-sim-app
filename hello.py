@@ -24,6 +24,6 @@ st.markdown(
 
 with st.sidebar:
     st.markdown("""App developed by [Yasser Mushtaq](https://www.linkedin.com/in/yasser-mushtaq-b1bbaa65/)  """)
-    st.markdown(“[![Title]('https://icons8.com/icon/16318/github')]('https://github.com/Ya5s3r/discrete-event-sim-app')”)
+    st.markdown("""[![Title]('https://icons8.com/icon/16318/github')]('https://github.com/Ya5s3r/discrete-event-sim-app')""")
     
     #https://icons8.com/icon/12598/github

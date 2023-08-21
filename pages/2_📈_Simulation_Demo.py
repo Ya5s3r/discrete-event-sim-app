@@ -39,8 +39,8 @@ class p:
             # simulation run metrics
             st.markdown("""Set your preferred settings for the simulation run times.""")
             warm_up = st.number_input("Simulation warm up - recommended!",1, None, 120, step=1)
-            sim_duration = st.number_input("Simulation duration - minutes (min = 60)",60, None, 480, step=1)
-            number_of_runs = st.number_input("Number of times to run the simulation (set to 50 to limit resource use - in reality would be higher.)",None, None, 50, step=1)
+            sim_duration = st.number_input("Simulation duration - minutes (min = 60, max = 500)",60, 500, 480, step=1)
+            number_of_runs = st.number_input("Number of times to run the simulation (limited to 70 due to compute constraints - in reality would be higher.)",None, 70, 50, step=1)
 
         with tab2:
             st.markdown("""Let's first start by modelling **demand** for our service. This can be done by adjusting the interarrival time

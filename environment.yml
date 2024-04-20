@@ -10,4 +10,4 @@ dependencies:
       - matplotlib==3.7.1
       - plotly==5.13.1
       - simpy==4.0.1
-      - streamlit==1.27.1
+      - streamlit==1.33.0
